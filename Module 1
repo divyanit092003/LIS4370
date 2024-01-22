@@ -1,0 +1,14 @@
+# Create VECTOR 
+assignment2 <- c(16, 18, 14, 22, 27, 17, 19, 17, 17, 22, 20, 22)
+
+# My mean is a function
+# includes all of the variables named assignment 2.
+# adds up all the numbers and then divides it by the # of numbers
+# called function
+
+myMean <- function(assignment2) { 
+  return(sum(assignment2)/length(assignment2)) 
+}
+
+# gives output of '19.25'
+myMean(assignment2)
