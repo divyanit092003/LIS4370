@@ -1,0 +1,10 @@
+create_s3_class <- function(x) {
+  class(x) <- "employees"
+  return(x)
+}
+s3 <- create_employees
+print(class(employees))
+library(methods)
+setClass("employees", slots = list(data = "numeric"))
+s4 <- new("employees")
+print(class(s4))
