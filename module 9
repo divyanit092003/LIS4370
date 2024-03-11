@@ -1,0 +1,13 @@
+module9=read.table(‘HealthInsurance.csv’ , sep=” , ” , header=1)
+
+str(module9)
+scatterplot(qone, col=”blue”, main=”insurance (y or n)”, ylab=
+“age”)
+install.packages(“lattice”)
+
+library(lattice)
+
+xyplot(conc~age, data = mod9, col=”blue”, main=”insurance (y or n)”, ylab=”age”, xlab = “# of family members”, grid= TRUE)
+library(ggplot2)
+
+ggplot1 <- ggplot(module9, aes(age, insurance(y or n))
