@@ -1,0 +1,9 @@
+> tukey multiple <- function(x) {
++     outliers <- array(TRUE, dim = dim(x))
++     for (j in 1:ncol(x)) {
++         outliers[, j] <- tukey. Outlier(x[, j])
++     }
++     outlier.vec <- apply(outliers, 1, all)
++     return(outlier.vec)
++ }
+
