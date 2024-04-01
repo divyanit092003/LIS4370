@@ -1,5 +1,5 @@
 ---
-title: "Geospatial Analysis Package Documentation"
+title: "Geospatial Analysis Package"
 author: "Divyani Tangudu"
 date: "2024-04-01"
 output: html_document
@@ -45,3 +45,8 @@ plot_map(spatial_data = shapefile_data, map_title = "My Map")
 #i will need to use 'maptools' for manipulation
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+#future improvements:
+support for interactive maps.
+conclusion
+This package provides essential tools for working with spatial data in R, allowing for easier visualization to the human eye.
